@@ -39,20 +39,10 @@ source .venv/bin/activate  # macOS/Linux
 
 # Install the package
 uv pip install -e .
+
+krknctl-ai --prompt "crash the pod with name backend-service in default namespace"
 ```
 
-### Using pip
-
-```bash
-cd /Users/darjain/sample-projects/krknctl-inference
-
-# Create and activate virtual environment
-python -m venv .venv
-source .venv/bin/activate
-
-# Install the package
-pip install -e .
-```
 
 ## Configuration
 
